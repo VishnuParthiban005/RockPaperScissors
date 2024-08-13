@@ -101,12 +101,12 @@ function playRound() {
     humanScorePara.textContent = `Your Score: ${humanScore}`;
 
     if(computerScore === 5) {
-        computerPlayed.textContent = "The computer could not win against you!!!";
-        whoWonTheRound.textContent = "You won the game!!! GREAT JOB!!!";
-    }
-    if(humanScore === 5) {
         computerPlayed.textContent = "The computer got the better of you!";
         whoWonTheRound.textContent = "Better luck next time!!!";
+    }
+    if(humanScore === 5) {
+        computerPlayed.textContent = "The computer could not win against you!!!";
+        whoWonTheRound.textContent = "You won the game!!! GREAT JOB!!!";
     }
 }
 
