@@ -1,0 +1,40 @@
+* {
+    font-family: fantasy, Geneva, Tahoma, sans-serif;
+}
+
+.header h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:space-evenly;
+    margin-top: 75px;
+}
+
+.rock {
+    background-color: #cd856a;
+}
+
+.paper {
+    background-color: aliceblue;
+}
+
+.scissors {
+    background-color: #bfe2ff;
+}
+
+.btn {
+    font-size: 26px;
+    height: 70px;
+    width: 125px;
+}
